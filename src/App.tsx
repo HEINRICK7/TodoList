@@ -1,8 +1,13 @@
-
+import * as C from './Global.styled'
+import RoutesAdd from './routes'
 const App = () => {
   return (
-    
-    <h1>hello Type</h1>
+      <>
+          <C.GlobalStyled />
+          <C.Container>
+              <RoutesAdd />
+          </C.Container>
+      </>
   );
 }
 
